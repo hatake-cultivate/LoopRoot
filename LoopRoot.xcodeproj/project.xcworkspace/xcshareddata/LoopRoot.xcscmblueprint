@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D3C6EBF431FA149C83BFC679E0B3BF7D7CB6534E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D3C6EBF431FA149C83BFC679E0B3BF7D7CB6534E" : 0,
+    "C44D340AA01E7EB2B1BC127EFF78E11062F2C1C0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C8B793FE-EE5A-4834-9433-7B32AAC2E6C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D3C6EBF431FA149C83BFC679E0B3BF7D7CB6534E" : "LoopRoot\/",
+    "C44D340AA01E7EB2B1BC127EFF78E11062F2C1C0" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LoopRoot",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LoopRoot.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:take1haru\/iPhone-course-submit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C44D340AA01E7EB2B1BC127EFF78E11062F2C1C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:take1haru\/LoopRoot.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3C6EBF431FA149C83BFC679E0B3BF7D7CB6534E"
+    }
+  ]
+}

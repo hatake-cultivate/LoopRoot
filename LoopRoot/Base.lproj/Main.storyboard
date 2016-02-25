@@ -22,15 +22,22 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
                                     <navigationItem title="Title" id="hKD-Se-bXU">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="7vd-kf-uyt">
-                                            <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="lrj-n9-H1p">
-                                                <rect key="frame" x="16" y="6" width="51" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <leftBarButtonItems>
+                                            <barButtonItem style="plain" id="7vd-kf-uyt">
+                                                <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="lrj-n9-H1p">
+                                                    <rect key="frame" x="16" y="6" width="51" height="31"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <connections>
+                                                        <action selector="changeSwi:" destination="BYZ-38-t0r" eventType="valueChanged" id="Pkw-7a-ich"/>
+                                                    </connections>
+                                                </switch>
+                                            </barButtonItem>
+                                            <barButtonItem systemItem="bookmarks" id="aeN-Hf-qEG">
                                                 <connections>
-                                                    <action selector="changeSwi:" destination="BYZ-38-t0r" eventType="valueChanged" id="Pkw-7a-ich"/>
+                                                    <segue destination="Dne-hO-y7X" kind="show" id="YD9-1Z-lDu"/>
                                                 </connections>
-                                            </switch>
-                                        </barButtonItem>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
                                         <rightBarButtonItems>
                                             <barButtonItem systemItem="add" id="cl1-63-dWO">
                                                 <connections>
@@ -60,6 +67,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="422.5" y="334.5"/>
+        </scene>
+        <!--Way View Controller-->
+        <scene sceneID="Ynk-S6-CVt">
+            <objects>
+                <viewController id="Dne-hO-y7X" customClass="WayViewController" customModule="LoopRoot" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KX1-Qa-e8O"/>
+                        <viewControllerLayoutGuide type="bottom" id="dxZ-Zc-G1m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NRz-Hg-6gt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YeM-Q4-h7F">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="iL6-sC-mNL">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="W07-VK-pVw">
+                                            <connections>
+                                                <segue destination="clD-2h-FVa" kind="unwind" unwindAction="back:" id="Lje-Bb-4p8"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J2z-s6-W2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="clD-2h-FVa" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="855.5" y="334.5"/>
         </scene>
     </scenes>
 </document>

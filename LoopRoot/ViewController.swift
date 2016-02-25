@@ -63,6 +63,10 @@ class ViewController: UIViewController,MKMapViewDelegate {
         i = 0
     }
     
+    @IBAction func back(segue: UIStoryboardSegue){
+        
+    }
+    
     @IBOutlet var myMapView: MKMapView!
     
     override func viewDidLoad() {

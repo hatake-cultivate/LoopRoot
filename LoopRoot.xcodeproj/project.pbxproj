@@ -15,6 +15,7 @@
 		046F2A3E1C7C8E5A00931CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F2A3C1C7C8E5A00931CF8 /* LaunchScreen.storyboard */; };
 		046F2A491C7C8E5B00931CF8 /* LoopRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F2A481C7C8E5B00931CF8 /* LoopRootTests.swift */; };
 		046F2A541C7C8E5B00931CF8 /* LoopRootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F2A531C7C8E5B00931CF8 /* LoopRootUITests.swift */; };
+		04C89B711C7F232300A17C60 /* WayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C89B701C7F232300A17C60 /* WayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		046F2A4F1C7C8E5B00931CF8 /* LoopRootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopRootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046F2A531C7C8E5B00931CF8 /* LoopRootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopRootUITests.swift; sourceTree = "<group>"; };
 		046F2A551C7C8E5B00931CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C89B701C7F232300A17C60 /* WayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				046F2A301C7C8E5A00931CF8 /* AppDelegate.swift */,
 				046F2A321C7C8E5A00931CF8 /* ViewController.swift */,
 				046F2A341C7C8E5A00931CF8 /* Main.storyboard */,
+				04C89B701C7F232300A17C60 /* WayViewController.swift */,
 				046F2A3A1C7C8E5A00931CF8 /* Assets.xcassets */,
 				046F2A3C1C7C8E5A00931CF8 /* LaunchScreen.storyboard */,
 				046F2A3F1C7C8E5A00931CF8 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				046F2A391C7C8E5A00931CF8 /* LoopRoot.xcdatamodeld in Sources */,
 				046F2A331C7C8E5A00931CF8 /* ViewController.swift in Sources */,
+				04C89B711C7F232300A17C60 /* WayViewController.swift in Sources */,
 				046F2A311C7C8E5A00931CF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +493,7 @@
 				046F2A5A1C7C8E5B00931CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046F2A5B1C7C8E5B00931CF8 /* Build configuration list for PBXNativeTarget "LoopRootTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				046F2A5D1C7C8E5B00931CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046F2A5E1C7C8E5B00931CF8 /* Build configuration list for PBXNativeTarget "LoopRootUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				046F2A601C7C8E5B00931CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
